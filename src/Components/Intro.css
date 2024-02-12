@@ -1,0 +1,77 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 85rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.introcontent{
+    padding: 0.5rem;
+    margin: 80px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.hello{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.name{
+    color:hsl(0, 81%, 57%);
+    font-family: 'Lilita One', sans-serif;
+    font-size: 75px;
+}
+.introtext{
+    height: 90px;
+   line-height: 90px;
+   overflow: hidden;
+   
+}
+.introtext li{
+    font-weight: 500;
+    font-size: 60px;
+    color: #bcafaf;
+    list-style: none;
+    top: 0;
+    position: relative;
+    animation: slide 6s steps(4) infinite;
+}
+@keyframes slide{
+    100%{
+       top:  -360px;
+    }
+}
+
+.introtext li span{
+    position: relative;
+}
+.introtext li span::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background: #000;
+    border-left: 2px solid #bcafaf;
+    animation: typing 1.5s steps(18) infinite;
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+.para{
+    line-height: 2;
+    margin-left: -5%;
+    
+    padding-left: 5%;
+    
+}
+.Btn{
+     margin: 20px;
+    margin-left: 80px; 
+}
+
