@@ -1,5 +1,6 @@
 import React from 'react'
 import './Intro.css';
+import {Link} from 'react-scroll';
 
 const Intro = () => {
   return (
@@ -14,13 +15,8 @@ const Intro = () => {
           <p className='para'>I have obtained a certification in Python and multi-threading using Java from Scaler Academy.<br/>
             I possess programming skills with a good knowledge of HTML, CSS and JavaScript.
          </p>
-
+         <Link ><button className="Btn" >Hire Me</button> </Link>
        </div>
-          
-
-         <div className="Btn">
-          <button>Hire Me</button>
-          </div>
     </section>
   )
 }

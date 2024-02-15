@@ -4,7 +4,7 @@ import './skills.css';
 const Skills = () => {
   return (
     
-    <div className="card">
+    
         <div class="form-container">
       <form class="form">
         <div class="form-group">
@@ -25,7 +25,7 @@ const Skills = () => {
         
       </form>
     </div>
-    </div>
+
     
   );
 }
