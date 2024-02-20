@@ -10,8 +10,8 @@
 .introcontent{
     padding: 0.5rem;
     margin: 80px;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column; 
 }
 .hello{
     font-size: 60px;
@@ -20,8 +20,8 @@
 }
 .name{
     color:hsl(0, 81%, 57%);
-    font-family: 'Lilita One', sans-serif;
-    font-size: 75px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
 }
 .introtext{
     height: 90px;
@@ -67,12 +67,103 @@
 .para{
     line-height: 2;
     margin-left: -5%;
-    
     padding-left: 5%;
     
 }
 .Btn{
      margin: 20px;
     margin-left: 80px; 
+}
+.Btn2{
+    margin: 20px;
+   margin-left: 80px; 
+}
+
+@media only screen and (max-width: 605px) {
+    .hello{
+        font-size: 30px;
+        
+    }
+    .name{
+        font-size: 30px;
+    }
+    .introtext{
+        height: 40px;
+       line-height: 40px;
+       overflow: hidden;
+    }
+    .introtext li{
+        font-weight: 500;
+        font-size: 25px;
+        color: #bcafaf;
+        list-style: none;
+        top: 0;
+        position: relative;
+        animation: slide 6s steps(4) infinite;
+    }
+    @keyframes slide{
+        100%{
+           top:  -160px;
+        }
+      }
+      .para{
+        text-align: justify;
+      }
+}
+
+@media only screen and (max-width: 435px) {
+    .introcontent{
+        margin: 45px;
+    }
+    .hello{
+        font-size: 20px;
+        
+    }
+    .name{
+        font-size: 20px;
+        
+    }
+    .introtext{
+        height: 30px;
+       line-height: 30px;
+       overflow: hidden;
+    }
+    .introtext li{
+        font-weight: 700;
+        font-size: 20px;
+        color: #bcafaf;
+        list-style: none;
+        top: 0;
+        position: relative;
+        animation: slide 6s steps(4) infinite;
+    }
+    @keyframes slide{
+        100%{
+           top:  -120px;
+        }
+      }
+     .para{
+        line-height: 1.2;
+        margin-top: 20px;
+     }
+     .Btn{
+        padding: 5px 10px;
+        font-size: 10px;
+        font-weight: 700;
+        justify-content: center;
+        display: flex;
+        margin: auto;
+        margin-bottom: 10px;
+        
+     }
+     .Btn2{
+        padding: 5px 10px;
+        font-size: 10px;
+        font-weight: 700;
+        justify-content: center;
+        display: flex;
+        margin: auto;
+   }
+
 }
 

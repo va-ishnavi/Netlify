@@ -1,4 +1,5 @@
 .navbar{
+  background: rgb(0, 0, 0);
     height: 6rem;
     width: 100vw;
     max-width: 85rem;
@@ -21,6 +22,7 @@
   margin: 1rem;
   cursor: pointer;
   color: white;
+  
 }
 .MenuListItem:hover{
    color:hsl(348, 100%, 70%) ;
@@ -37,7 +39,7 @@ button {
   box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  font-size: 15px;
+  
   transition: all 0.5s ease;
 }
 
@@ -49,12 +51,37 @@ button:hover {
 }
 
 button:active {
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   background-color: hsl(261deg 80% 48%);
   color: hsl(0, 0%, 100%);
   box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
-  transform: translateY(10px);
+  transform: translateY(8px);
   transition: 100ms;
 }
+
+ @media only screen and (max-width: 605px) {
+  .Logo{
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    margin: auto;
+    margin-top: -2px;
+  }
+  .Button{
+    font-size: 10px;
+    padding: 5px 10px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 16px;
+    font-weight: 700;
+  } 
+  
+}
+    
+  
+  
+  
+
 
 

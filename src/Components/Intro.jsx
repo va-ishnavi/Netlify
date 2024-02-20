@@ -12,10 +12,12 @@ const Intro = () => {
           <li><span>Front-end Developer</span></li>
           <li><span>Full Stack Developer</span></li>
           </div>
-          <p className='para'>I have obtained a certification in Python and multi-threading using Java from Scaler Academy.<br/>
-            I possess programming skills with a good knowledge of HTML, CSS and JavaScript.
+          <p className='para'>I'm a full-stack developer and here is my portfolio website. On this site, 
+          you'll find a showcase of my projects, where I blend creativity with technical expertise 
+          to craft engaging digital experiences.
          </p>
          <Link ><button className="Btn" >Hire Me</button> </Link>
+         <Link ><button className="Btn2" >Resume</button> </Link>
        </div>
     </section>
   )

@@ -15,10 +15,10 @@ const Nav = () => {
                <Link className='MenuListItem'>About</Link>
                <Link className='MenuListItem'>Skills</Link>
                <Link className='MenuListItem'>Projects</Link>
-          </div>
           <button className='Button '>
             contact me
           </button>
+          </div>
         </div>
     
   )
