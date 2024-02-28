@@ -1,0 +1,242 @@
+#projects {
+  min-height: calc(100vh - 4rem);
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.projectTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+.projectContainer {
+  width: 100vw;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.projectCard {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(50, 50, 50);
+  position: relative;
+  box-shadow: 0px 0px 40px;
+  border-radius: 0.5rem;
+}
+.projectCard:hover {
+  color: rgb(50, 50, 50);
+}
+
+.projectContent {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 2em;
+  bottom: 15%;
+  gap: 1em;
+  margin-left: 15px;
+}
+.projectImg1 {
+  object-fit: cover;
+  height: 5rem;
+  margin: 0.5rem;
+}
+.projectHeading {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 3rem;
+}
+.projectSubheading {
+  color: white;
+  font-weight: 800;
+  width: 100%;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+.projectBtnWrap {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+.btn-red {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #ff003b;
+  padding: 5px 10px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.icon {
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+}
+@media screen and (max-width: 830px) {
+  .projectHeading {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .projectHeading {
+    font-size: 30px;
+    line-height: 5px;
+  }
+  .icon {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .projectHeading {
+    font-size: 20px;
+  }
+  .projectSubheading {
+    font-size: 10px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 385px) {
+  .projectImg1 {
+    height: 3rem;
+    margin: 0.1rem;
+  }
+  .projectHeading {
+    font-size: 15px;
+    line-height: 0;
+  }
+  .projectSubheading {
+    font-weight: 500;
+  }
+
+  .btn-red {
+    font-size: 10px;
+  }
+  .icon {
+    font-size: 15px;
+  }
+}
+/*Project 2*/
+.projectCard2 {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(50, 50, 50);
+  position: relative;
+  box-shadow: 0px 0px 40px;
+  border-radius: 0.5rem;
+}
+.projectCard2:hover {
+    color: rgb(50, 50, 50);
+  }
+.projectContent2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 2em;
+  /* bottom: 15%; */
+  gap: 1em;
+  margin-left: 15px;
+}
+.projectImg2 {
+  object-fit: cover;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.projectHeading2 {
+  display: flex;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 3rem;
+}
+.projectSubheading2 {
+  color: white;
+  font-weight: 800;
+  width: 100%;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 830px) {
+  .projectHeading2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .projectHeading2 {
+    font-size: 25px;
+    line-height: 5px;
+  }
+  .icon {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 555px) {
+  .projectHeading2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .projectSubheading2 {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  
+}
+@media screen and (max-width: 460px) {
+  .projectHeading2 {
+    /* font-size: 20px; */
+    display: contents;
+  }
+}
+@media screen and (max-width: 460px) {
+  .projectImg2 {
+    height: 3rem;
+    margin: 0.1rem;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .projectImg1 {
+    height: 2rem;
+    margin: 0.1rem;
+  }
+  .projectHeading2 {
+    font-size: 20px;
+  }
+  .projectSubheading2 {
+    font-weight: 500;
+  }
+
+  .btn-red {
+    font-size: 10px;
+  }
+  .icon {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .projectHeading2 {
+    font-size: 15px;
+  }
+}

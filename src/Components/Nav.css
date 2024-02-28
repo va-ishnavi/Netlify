@@ -1,8 +1,8 @@
 .navbar{
-  background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
     height: 6rem;
     width: 100vw;
-    max-width: 85rem;
+    max-width: 75rem;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -27,11 +27,13 @@
 .MenuListItem:hover{
    color:hsl(348, 100%, 70%) ;
    border-bottom: 3px solid hsl(348, 100%, 70%) ;
-   font-style: italic ;
    padding-bottom: 0.4rem;
 }
 button {
-  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
   border-radius: 50px;
   cursor: pointer;
   border: 0;
@@ -39,7 +41,6 @@ button {
   box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  
   transition: all 0.5s ease;
 }
 
@@ -58,6 +59,9 @@ button:active {
   transform: translateY(8px);
   transition: 100ms;
 }
+.active{
+color: hsl(348, 100%, 70%);
+}
 
  @media only screen and (max-width: 605px) {
   .Logo{
@@ -65,19 +69,21 @@ button:active {
     width: 4rem;
     display: flex;
     margin: auto;
-    margin-top: -2px;
+   
   }
   .Button{
     font-size: 10px;
     padding: 5px 10px;
-    justify-content: center;
-    display: flex;
-    margin: auto;
-    margin-top: 16px;
-    font-weight: 700;
   } 
   
 }
+@media only screen and (max-width: 530px) {
+  .navbar{
+    
+  }
+}
+
+
     
   
   

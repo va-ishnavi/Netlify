@@ -16,8 +16,10 @@ const Intro = () => {
           you'll find a showcase of my projects, where I blend creativity with technical expertise 
           to craft engaging digital experiences.
          </p>
+         <div  className='introbtn'>
          <Link ><button className="Btn" >Hire Me</button> </Link>
          <Link ><button className="Btn2" >Resume</button> </Link>
+         </div>
        </div>
     </section>
   )

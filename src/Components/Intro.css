@@ -1,7 +1,7 @@
 #intro{
     height: calc(100vh - 4rem);
     width: 100vw;
-    max-width: 85rem;
+    max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
@@ -70,19 +70,23 @@
     padding-left: 5%;
     
 }
+.introbtn{
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  cursor: pointer;
+ 
+}
 .Btn{
-     margin: 20px;
-    margin-left: 80px; 
+    margin: 10px;
 }
 .Btn2{
-    margin: 20px;
-   margin-left: 80px; 
+   margin: 10px;
 }
 
 @media only screen and (max-width: 605px) {
     .hello{
         font-size: 30px;
-        
     }
     .name{
         font-size: 30px;
@@ -107,17 +111,25 @@
         }
       }
       .para{
+        
         text-align: justify;
       }
 }
 
+@media only screen and (max-width: 457px) {
+    .introbtn{
+        margin: 10px;
+        font-size: 10px;
+        flex-direction: column;
+    }
+
+}
 @media only screen and (max-width: 435px) {
     .introcontent{
         margin: 45px;
     }
     .hello{
         font-size: 20px;
-        
     }
     .name{
         font-size: 20px;
@@ -143,27 +155,8 @@
         }
       }
      .para{
-        line-height: 1.2;
+        line-height: 1;
         margin-top: 20px;
-     }
-     .Btn{
-        padding: 5px 10px;
-        font-size: 10px;
-        font-weight: 700;
-        justify-content: center;
-        display: flex;
-        margin: auto;
-        margin-bottom: 10px;
-        
-     }
-     .Btn2{
-        padding: 5px 10px;
-        font-size: 10px;
-        font-weight: 700;
-        justify-content: center;
-        display: flex;
-        margin: auto;
-   }
 
 }
-
+}
