@@ -10,9 +10,9 @@ const Nav = () => {
        <img src={logo} alt='logo' className='Logo' />
           <div className="desktopmenu "> 
                <Link activeClass='active'  to='intro' spy={true} smooth={true} offset={-100} duration={500} className='MenuListItem '>Home</Link>
-               <Link className='MenuListItem'>About</Link>
-               <Link className='MenuListItem'>Skills</Link>
-               <Link className='MenuListItem'>Projects</Link>
+               <Link activeClass='active'  to='about' spy={true} smooth={true} offset={-100} duration={500} className='MenuListItem'>About</Link>
+               <Link  activeClass='active'  to='skills' spy={true} smooth={true} offset={-100} duration={500} className='MenuListItem'>Skills</Link>
+               <Link activeClass='active'  to='projects' spy={true} smooth={true} offset={-100} duration={500}  className='MenuListItem'>Projects</Link>
           </div>
           <div className=''></div>
           <button className='Button '>contact me</button>
