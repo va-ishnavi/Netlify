@@ -1,5 +1,6 @@
 # Vaishnavi's Portfolio
-# Welcome to my portfolio! This repository showcases a collection of projects that demonstrate my skills and experience in web development.
+# Welcome to my portfolio! 
+This repository showcases a collection of projects that demonstrate my skills and experience in web development.
 
 # Getting Started
 To get started with the Portfolio, follow these steps: https://github.com/va-ishnavi/Netlify
