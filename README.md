@@ -3,13 +3,13 @@
 This repository showcases a collection of projects that demonstrate my skills and experience in web development.
 
 # Getting Started
-To get started with the Portfolio, follow these steps: https://github.com/va-ishnavi/Netlify
+To get started with the Portfolio, follow these steps:
 
-Clone the Repository: Clone this repository to your local machine using Git: git clone 
+1.Clone the Repository: Clone this repository to your local machine using Git: git clone -  https://github.com/va-ishnavi/Netlify
 
-Install Dependencies: Navigate to the project directory and install the required dependencies using npm or yarn: cd portfolio
+2.Install Dependencies: Navigate to the project directory and install the required dependencies using npm or yarn: cd portfolio
 
-Run the Application: Start the development server to launch the dashboard: npm start
+3.Run the Application: Start the development server to launch the dashboard: npm start
 
 # How You Can Help
 If you're interested in contributing to this project:
