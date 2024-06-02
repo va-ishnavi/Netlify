@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section id="about">
       <span className='aboutTitle'>About Me</span>
-      <span className='aboutDesc'>I pursuing my Bachelor of Computer Applications (BCA) from Indira Gandhi National Open University (IGNOU).
+      <span className='aboutDesc'>I complete my Bachelor of Computer Applications (BCA) from Indira Gandhi National Open University (IGNOU).
         Additionally, I have obtained a certification in Python and Multi-threading using Java from Scaler Academy. And also
         certification in Full Stack Web Development from Alma Better.
       </span>

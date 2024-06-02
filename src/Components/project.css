@@ -88,12 +88,12 @@
   color: white;
   font-size: 30px;
 }
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 850px) {
   .projectHeading {
     font-size: 40px;
   }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 698px) {
   .projectHeading {
     font-size: 30px;
     line-height: 5px;
@@ -102,9 +102,9 @@
     font-size: 20px;
   }
 }
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 545px) {
   .projectHeading {
-    font-size: 20px;
+    font-size: 19px;
   }
   .projectSubheading {
     font-size: 10px;
@@ -123,7 +123,6 @@
   .projectSubheading {
     font-weight: 500;
   }
-
   .btn-red {
     font-size: 10px;
   }
@@ -131,6 +130,12 @@
     font-size: 15px;
   }
 }
+@media screen and (max-width: 330px) {
+  .projectHeading {
+    font-size: 14px;
+  }
+}
+
 /*Project 2*/
 .projectCard2 {
   width: 100%;
@@ -151,7 +156,6 @@
   align-items: center;
   width: 90%;
   padding: 2em;
-  /* bottom: 15%; */
   gap: 1em;
   margin-left: 15px;
 }
@@ -164,7 +168,7 @@
 .projectHeading2 {
   display: flex;
   color: white;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
   line-height: 3rem;
 }
@@ -177,11 +181,22 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 972px) {
   .projectHeading2 {
     font-size: 40px;
   }
 }
+@media screen and (max-width: 872px) {
+  .projectHeading2 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 776px) {
+  .projectHeading2 {
+    font-size: 30px;
+  }
+}
+
 @media screen and (max-width: 680px) {
   .projectHeading2 {
     font-size: 25px;
@@ -191,7 +206,7 @@
     font-size: 20px;
   }
 }
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 580px) {
   .projectHeading2 {
     font-size: 20px;
   }
@@ -201,15 +216,16 @@
     font-size: 10px;
     font-weight: 600;
   }
-  
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
   .projectHeading2 {
-    /* font-size: 20px; */
-    display: contents;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 460px) {
+  .projectHeading2 {
+    display: contents;
+  }
   .projectImg2 {
     height: 3rem;
     margin: 0.1rem;
@@ -217,8 +233,8 @@
 }
 
 @media screen and (max-width: 385px) {
-  .projectImg1 {
-    height: 2rem;
+  .projectImg2 {
+    height: 3rem;
     margin: 0.1rem;
   }
   .projectHeading2 {
@@ -240,3 +256,357 @@
     font-size: 15px;
   }
 }
+
+/* project3 */
+
+.projectCard3 {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(50, 50, 50);
+  position: relative;
+  box-shadow: 0px 0px 40px;
+  border-radius: 0.5rem;
+}
+.projectCard3:hover {
+  color: rgb(50, 50, 50);
+}
+.projectContent3 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 2em;
+  gap: 1em;
+  margin-left: 15px;
+}
+.projectImg3 {
+  object-fit: cover;
+  height: 4rem;
+  margin: 0.5rem;
+}
+.projectHeading3 {
+  display: flex;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 3rem;
+}
+.projectSubheading3 {
+  color: white;
+  font-weight: 800;
+  width: 100%;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 972px) {
+  .projectHeading3 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 872px) {
+  .projectHeading3 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 776px) {
+  .projectHeading3 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .projectHeading3 {
+    font-size: 25px;
+    line-height: 5px;
+  }
+  .icon {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .projectHeading3 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .projectHeading3 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .projectSubheading3 {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  
+}
+@media screen and (max-width: 460px) {
+  .projectHeading3 {
+    display: contents;
+  }
+}
+@media screen and (max-width: 460px) {
+  .projectImg3 {
+    height: 3rem;
+    margin: 0.1rem;
+  }
+}
+@media screen and (max-width: 385px) {
+  .projectHeading3 {
+    font-size: 20px;
+  }
+  .projectSubheading3 {
+    font-weight: 500;
+  }
+
+  .btn-red {
+    font-size: 10px;
+  }
+  .icon {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .projectHeading3 {
+    font-size: 14px;
+  }
+}
+
+/* Project 4 */
+.projectCard3 {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(50, 50, 50);
+  position: relative;
+  box-shadow: 0px 0px 40px;
+  border-radius: 0.5rem;
+}
+.projectCard3:hover {
+  color: rgb(50, 50, 50);
+}
+.projectContent3 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 2em;
+  gap: 1em;
+  margin-left: 15px;
+}
+.projectImg3 {
+  object-fit: cover;
+  height: 4rem;
+  margin: 0.5rem;
+}
+.projectHeading3 {
+  display: flex;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 3rem;
+}
+.projectSubheading3 {
+  color: white;
+  font-weight: 800;
+  width: 100%;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 972px) {
+  .projectHeading3 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 872px) {
+  .projectHeading3 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 776px) {
+  .projectHeading3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .projectHeading3 {
+    font-size: 25px;
+    line-height: 5px;
+  }
+  .icon {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .projectHeading3 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .projectHeading3 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .projectSubheading3 {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  
+}
+@media screen and (max-width: 460px) {
+  .projectHeading2 {
+    display: contents;
+  }
+}
+@media screen and (max-width: 460px) {
+  .projectImg2 {
+    height: 3rem;
+    margin: 0.1rem;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .projectImg2 {
+    height: 3rem;
+    margin: 0.1rem;
+  }
+  .projectHeading2 {
+    font-size: 20px;
+  }
+  .projectSubheading2 {
+    font-weight: 500;
+  }
+
+  .btn-red {
+    font-size: 10px;
+  }
+  .icon {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .projectHeading2 {
+    font-size: 15px;
+  }
+}
+
+/* Project 5 */
+
+.projectCard5 {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(50, 50, 50);
+  position: relative;
+  box-shadow: 0px 0px 40px;
+  border-radius: 0.5rem;
+}
+.projectCard5:hover {
+  color: rgb(50, 50, 50);
+}
+.projectContent5 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 2em;
+  gap: 1em;
+  margin-left: 15px;
+}
+.projectImg5 {
+  object-fit: cover;
+  height: 4rem;
+  margin: 0.5rem;
+}
+.projectHeading5 {
+  display: flex;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 3rem;
+}
+.projectSubheading5 {
+  color: white;
+  font-weight: 800;
+  width: 100%;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 897px) {
+  .projectHeading5 {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 817px) {
+  .projectHeading5 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .projectHeading5 {
+    font-size: 30px;
+    line-height: 5px;
+  }
+  .icon {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .projectHeading5 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .projectSubheading5 {
+    font-size: 10px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 480px) {
+  .projectHeading5 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .projectHeading5 {
+    display: contents;
+  }
+}
+@media screen and (max-width: 460px) {
+  .projectImg5 {
+    height: 3rem;
+    margin: 0.1rem;
+  }
+}
+@media screen and (max-width: 385px) {
+  .projectHeading2 {
+    font-size: 20px;
+  }
+  .projectSubheading2 {
+    font-weight: 500;
+  }
+
+  .btn-red {
+    font-size: 10px;
+  }
+  .icon {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .projectHeading2 {
+    font-size: 15px;
+  }
+}
+

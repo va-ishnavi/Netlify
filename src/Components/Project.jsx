@@ -4,13 +4,13 @@ import Html from '../asset/html5.jpg';
 import Css from '../asset/css.jpg';
 import Js from '../asset/Js.png';
 import react from '../asset/react.png';
+import tailwind from '../asset/tailwindcss.png';
 
 
 const Project = () => {
     return (
         <section id='projects'>
             <span className='projectTitle'>Projects</span>
-            
             <div className='projectContainer'>
                 <div className='projectCard' id='project1'>
                     <div className='projectContent'>
@@ -27,11 +27,11 @@ const Project = () => {
                             <a className='btn-red' href='https://foodhub-by-vaishnavi.netlify.app'>
                                 <span >View Project</span>
                             </a>
-                            <a  href="https://github.com/va-ishnavi/Project-2-fully">
-                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            <a href="https://github.com/va-ishnavi/Project-2-fully">
+                                <i title="Visit GitHub Link" class="fa-brands fa-github icon"></i>
                             </a>
                             <a href='https://foodhub-by-vaishnavi.netlify.app'>
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                                <i title="Visit Live Link" class="fa-solid fa-link icon"></i>
                             </a>
                         </div>
                     </div>
@@ -43,49 +43,104 @@ const Project = () => {
                             <img src={Css} alt='' className='projectImg2' />
                             <img src={Js} alt='' className='projectImg2' />
                         </div>
-                        <h2 className='projectHeading2'> 
-                        SignUp form - HTML/CSS/JS</h2>
+                        <h2 className='projectHeading2'>
+                            SignUp form - HTML/CSS/JS</h2>
                         <div className='projectSubheading2'>
-                          A simple signup page with validation instructions , built using basic HTML/CSS,JS and also using
-                            Regex for the correct information into the fields and an alert message if any field is missing from the form.
-                           It includes validation of email and password fields, as well as a button that displays an alert when clicked 
-                            
+                            A simple signup page validation instructions, built using basic HTML/CSS,JS and also using
+                            Regex for the correct information into the fields and an alert message if any missing from the form.
+                            It includes validation of email and password fields, as well as a button that displays an alert when clicked.
+
                         </div>
                         <div className='projectBtnWrap'>
                             <a className='btn-red' href='https://validation-project.netlify.app'>
                                 <span >View Project</span>
                             </a>
-                            <a  href="https://github.com/va-ishnavi/signup-validation">
-                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            <a href="https://github.com/va-ishnavi/signup-validation">
+                                <i title="Visit GitHub Link" class="fa-brands fa-github icon"></i>
                             </a>
                             <a href='https://validation-project.netlify.app'>
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                                <i title="Visit Live Link" class="fa-solid fa-link icon"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div className='projectCard' id='project3'>
-                    <div className='projectContent'>
-                        <div className='projectskills'>
-                            <img src={Html} alt='' className='projectImg1' />
-                            <img src={Css} alt='' className='projectImg1' />
-                            <img src={Js} alt='' className='projectImg1' />
-                            <img src={react} alt='' className='projectImg1' />
+                <div className='projectCard3' id='project3'>
+                    <div className='projectContent3'>
+                        <div className='projectskills3'>
+                            <img src={Html} alt='' className='projectImg3' />
+                            <img src={Css} alt='' className='projectImg3' />
+                            <img src={Js} alt='' className='projectImg3' />
+                            <img src={react} alt='' className='projectImg3' />
                         </div>
-                        <h2 className='projectHeading'> TodoList -React.js</h2>
-                        <div className='projectSubheading'>
-                            A simple to-do list application built using React.js. The user can add, delete tasks and new tasks to the list using the
+                        <h2 className='projectHeading3'> TodoList - React.js</h2>
+                        <div className='projectSubheading3'>
+                            A simple to-do list application built using React.js. the user can add new tasks to the list, delete tasks from the list,
+                            and mark tasks as complete using the following components and their respective functionalities.
 
                         </div>
                         <div className='projectBtnWrap'>
                             <a className='btn-red' href='https://vaishnavi-todo.netlify.app'>
                                 <span >View Project</span>
                             </a>
-                            <a  href="https://github.com/va-ishnavi/TodoApp">
-                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            <a href="https://github.com/va-ishnavi/TodoApp">
+                                <i title="Visit GitHub Link" class="fa-brands fa-github icon"></i>
                             </a>
                             <a href='https://vaishnavi-todo.netlify.app'>
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                                <i title=" Visit Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='projectCard3' id='project3'>
+                    <div className='projectContent3'>
+                        <div className='projectskills3'>
+                            <img src={Html} alt='' className='projectImg3' />
+                            <img src={Css} alt='' className='projectImg3' />
+                            <img src={Js} alt='' className='projectImg3' />
+                            <img src={react} alt='' className='projectImg3' />
+                        </div>
+                        <h2 className='projectHeading3'> Shopping Cart - React.js</h2>
+                        <div className='projectSubheading3'>
+                            A simple to-do list application built using React.js. the user can add new tasks to the list, delete tasks from the list,
+                            and mark tasks as complete using the following components and their respective functionalities.
+
+                        </div>
+                        <div className='projectBtnWrap'>
+                            <a className='btn-red' href='https://vaishnavi-todo.netlify.app'>
+                                <span >View Project</span>
+                            </a>
+                            <a href="https://github.com/va-ishnavi/TodoApp">
+                                <i title="Visit GitHub Link" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href='https://vaishnavi-todo.netlify.app'>
+                                <i title="Visit Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className='projectCard5' id='project5'>
+                    <div className='projectContent5'>
+                        <div className='projectskills5'>
+                            <img src={Html} alt='' className='projectImg5' />
+                            <img src={Css} alt='' className='projectImg5' />
+                            {/* <img src={Js} alt='' className='projectImg3' /> */}
+                            <img src={tailwind} alt='' className='projectImg5' />
+                        </div>
+                        <h2 className='projectHeading5'> E-comm - TailwindCss</h2>
+                        <div className='projectSubheading5'>
+                        Creating an e-commerce website using Tailwind CSS involves a few steps to ensure 
+                        that site is attractive and interesting, also fully Responsive.
+                        </div>
+                        <div className='projectBtnWrap'>
+                            <a className='btn-red' href=' https://e-comm-tailwind.netlify.app/'>
+                                <span >View Project</span>
+                            </a>
+                            <a href=" https://github.com/va-ishnavi/e-comm">
+                                <i title="Visit GitHub Link" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href=' https://e-comm-tailwind.netlify.app/'>
+                                <i title="Visit Live Link" class="fa-solid fa-link icon"></i>
                             </a>
                         </div>
                     </div>
