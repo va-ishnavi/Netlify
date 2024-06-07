@@ -16,11 +16,11 @@ const Intro = () => {
           you'll find a showcase of my projects,<br/> where I blend creativity with technical expertise 
           to craft engaging digital experiences.
          </p>
-         <div  className='introbtn'>
+         <div className='introbtn'>
           <a className='meBtn' href='#'>
           <Link ><button className="Btn">Hire Me</button> </Link>
           </a>
-         <a className='meBtn' href='' download="">
+         <a className='meBtn' href='image/vaishnavi-cv.pdf' download="Download CV">
          <button className="Btn" >Resume</button> 
          </a>
          </div>
