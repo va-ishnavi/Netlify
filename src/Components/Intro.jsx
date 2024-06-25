@@ -17,7 +17,7 @@ const Intro = () => {
           to craft engaging digital experiences.
          </p>
          <div className='introbtn'>
-          <a className='meBtn' href='#'>
+          <a className='meBtn' href='image/vaishnavi-cv.pdf'>
           <Link ><button className="Btn">Hire Me</button> </Link>
           </a>
          <a className='meBtn' href='image/vaishnavi-cv.pdf' download="Download CV">

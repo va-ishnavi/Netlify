@@ -91,44 +91,16 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className='projectCard3' id='project3'>
-                    <div className='projectContent3'>
-                        <div className='projectskills3'>
-                            <img src={Html} alt='' className='projectImg3' />
-                            <img src={Css} alt='' className='projectImg3' />
-                            <img src={Js} alt='' className='projectImg3' />
-                            <img src={react} alt='' className='projectImg3' />
-                        </div>
-                        <h2 className='projectHeading3'> Shopping Cart - React.js</h2>
-                        <div className='projectSubheading3'>
-                            A simple to-do list application built using React.js. the user can add new tasks to the list, delete tasks from the list,
-                            and mark tasks as complete using the following components and their respective functionalities.
-
-                        </div>
-                        <div className='projectBtnWrap'>
-                            <a className='btn-red' href='https://vaishnavi-todo.netlify.app'>
-                                <span >View Project</span>
-                            </a>
-                            <a href="https://github.com/va-ishnavi/TodoApp">
-                                <i title="Visit GitHub Link" class="fa-brands fa-github icon"></i>
-                            </a>
-                            <a href='https://vaishnavi-todo.netlify.app'>
-                                <i title="Visit Live Link" class="fa-solid fa-link icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div className='projectCard5' id='project5'>
-                    <div className='projectContent5'>
-                        <div className='projectskills5'>
-                            <img src={Html} alt='' className='projectImg5' />
-                            <img src={Css} alt='' className='projectImg5' />
+                <div className='projectCard4' id='project4'>
+                    <div className='projectContent4'>
+                        <div className='projectskills4'>
+                            <img src={Html} alt='' className='projectImg4' />
+                            <img src={Css} alt='' className='projectImg4' />
                             {/* <img src={Js} alt='' className='projectImg3' /> */}
-                            <img src={tailwind} alt='' className='projectImg5' />
+                            <img src={tailwind} alt='' className='projectImg4' />
                         </div>
-                        <h2 className='projectHeading5'> E-comm - TailwindCss</h2>
-                        <div className='projectSubheading5'>
+                        <h2 className='projectHeading4'> E-comm - TailwindCss</h2>
+                        <div className='projectSubheading4'>
                         Creating an e-commerce website using Tailwind CSS involves a few steps to ensure 
                         that site is attractive and interesting, also fully Responsive.
                         </div>
