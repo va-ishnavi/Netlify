@@ -17,7 +17,7 @@ If you're interested in contributing to this project:
 Fork the repository and work on your own improvements. Make sure your changes follow the project's guidelines and standards. Write clear explanations of your contributions when submitting a pull request.
 
 # Demo Link
-It is deployed using Netlify - https://vaishnavi-resume.netlify.app/
+It is deployed using Netlify -https://vaishnavi-resume.netlify.app/
 In the project directory, you can run:
 
 ### npm start
